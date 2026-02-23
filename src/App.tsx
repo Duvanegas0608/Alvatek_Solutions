@@ -17,16 +17,21 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
+      console.log("Prueba1");
       //<BrowserRouter>
       <HashRouter>
+        console.log("Prueba2");
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="servicios" element={<Services />} />
             <Route path="nosotros" element={<About />} />
             <Route path="contacto" element={<Contact />} />
+            console.log("Prueba3");
           </Route>
+          console.log("Prueba4");
           <Route path="*" element={<NotFound />} />
+          console.log("Prueba5");
         </Routes>
       </HashRouter>
       //</BrowserRouter>
