@@ -2,6 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import logo from "@/assets/Logo3.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -28,7 +29,7 @@ const Navbar = () => {
               <span className="font-bold text-foreground text-lg leading-tight">Alvatek</span>
               <span className="text-xs text-muted-foreground leading-tight">Solutions</span>
             </div>
-            <img src="/Logo3.png" alt="Alvatek Solutions" className="h-10 w-auto" />
+            <img src={logo} alt="Alvatek Solutions" className="h-10 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}
