@@ -17,7 +17,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      //<BrowserRouter basename="/Alvatek_Solutions/" >
+      {/* <BrowserRouter basename="/Alvatek_Solutions/"> */}
       <HashRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
@@ -29,7 +29,7 @@ const App = () => (
           <Route path="*" element={<NotFound />} />
         </Routes>
       </HashRouter>
-      //</BrowserRouter>
+      {/* </BrowserRouter> */}
     </TooltipProvider>
   </QueryClientProvider>
 );
