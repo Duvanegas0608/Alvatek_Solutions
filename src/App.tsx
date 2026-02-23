@@ -17,8 +17,8 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      //<BrowserRouter basename="/Alvatek_Solutions/">
-      <HashRouter basename="/Alvatek_Solutions/">
+      //<BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
