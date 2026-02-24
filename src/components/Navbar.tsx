@@ -25,11 +25,9 @@ const Navbar = () => {
             <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center">
               <span className="text-primary-foreground font-bold text-xl">A</span>
             </div>
-            <div className="flex flex-col">
-              <span className="font-bold text-foreground text-lg leading-tight">Alvatek</span>
-              <span className="text-xs text-muted-foreground leading-tight">Solutions</span>
+            <div className="flex items-center">
+              <img src={logo} alt="Alvatek Solutions" className="h-10 w-auto" />
             </div>
-            <img src={logo} alt="Alvatek Solutions" className="h-10 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}
