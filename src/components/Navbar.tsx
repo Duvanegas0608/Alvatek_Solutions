@@ -22,7 +22,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 rounded-lg flex items-center justify-center overflow-hidden">
+            <div className="w-16 h-16 rounded-lg flex items-center justify-center overflow-hidden">
               <img src={logo} alt="Alvatek Solutions" className="w-full h-full object-contain" />
             </div>
           </Link>
