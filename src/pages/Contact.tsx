@@ -149,8 +149,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold mb-1">Correo Electrónico</h3>
-                      <a href="mailto:info@alvatek.com" className="text-muted-foreground hover:text-primary transition-colors">
-                        info@alvatek.com
+                      <a href="mailto:ventas.alvatek@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+                        ventas.alvatek@gmail.com
                       </a>
                     </div>
                   </div>
@@ -216,7 +216,7 @@ const Contact = () => {
                 </CardHeader>
                 <CardContent>
                   <div className="space-y-2 text-muted-foreground">
-                    <p><strong className="text-foreground">Lunes - Viernes:</strong> 8:00 AM - 6:00 PM</p>
+                    <p><strong className="text-foreground">Lunes - Viernes:</strong> 8:00 AM - 4:00 PM</p>
                     <p><strong className="text-foreground">Sábados:</strong> 9:00 AM - 1:00 PM</p>
                     <p><strong className="text-foreground">Domingos:</strong> Cerrado</p>
                   </div>
