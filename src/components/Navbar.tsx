@@ -29,7 +29,7 @@ const Navbar = () => {
               <span className="font-bold text-foreground text-lg leading-tight">Alvatek</span>
               <span className="text-xs text-muted-foreground leading-tight">Solutions</span>
             </div>
-            <div <img src={logo} alt="Alvatek Solutions" className="h-10 w-auto" /> />
+            <img src={logo} alt="Alvatek Solutions" className="h-10 w-auto" />
           </Link>
 
           {/* Desktop Navigation */}
