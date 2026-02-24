@@ -2,7 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/Logo3.png";
+import logo from "@/assets/Logo4.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
