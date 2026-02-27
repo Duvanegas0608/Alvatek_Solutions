@@ -10,7 +10,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="w-24 h-24 rounded-lg flex items-center justify-center overflow-hidden" >
+              <div className="w-40 h-40 rounded-lg flex items-center justify-center overflow-hidden" >
                 <img src={logo} alt="Alvatek Solutions" classnName="w-full h-full object-contain" />
               </div>
               <div className="flex flex-col">
