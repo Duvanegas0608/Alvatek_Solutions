@@ -17,10 +17,12 @@ const Footer = () => {
                 <span className="font-bold text-secondary-foreground text-lg leading-tight">Alvatek</span>
                 <span className="text-xs text-secondary-foreground/70 leading-tight">Solutions S.A.S.</span>
               </div>*/}
+              <div>
+                <p className="text-sm text-secondary-foreground/80">
+                  Soluciones profesionales en automatización industrial y control eléctrico.
+                </p>
+              </div>
             </div>
-            <p className="text-sm text-secondary-foreground/80">
-              Soluciones profesionales en automatización industrial y control eléctrico.
-            </p>
           </div>
 
           {/* Quick Links */}
@@ -58,6 +60,8 @@ const Footer = () => {
               <li>Diseño de Tableros</li>
               <li>Automatización Industrial</li>
               <li>Mantenimiento</li>
+              <li>Instalaciones Eléctricas Industriales</li>
+              <li>Instrumentación y Control</li>
             </ul>
           </div>
 
