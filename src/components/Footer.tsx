@@ -13,10 +13,10 @@ const Footer = () => {
               <div className="w-40 h-40 rounded-lg flex items-center justify-center overflow-hidden" >
                 <img src={logo} alt="Alvatek Solutions" classnName="w-full h-full object-contain" />
               </div>
-              <div className="flex flex-col">
+              {/*<div className="flex flex-col">
                 <span className="font-bold text-secondary-foreground text-lg leading-tight">Alvatek</span>
                 <span className="text-xs text-secondary-foreground/70 leading-tight">Solutions S.A.S.</span>
-              </div>
+              </div>*/}
             </div>
             <p className="text-sm text-secondary-foreground/80">
               Soluciones profesionales en automatización industrial y control eléctrico.
