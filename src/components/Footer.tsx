@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Mail, Phone, MapPin, Linkedin, Instagram } from "lucide-react";
-import logo from "@/assets/Logo3.png";
+import logo from "@/assets/Logo4.png";
 
 const Footer = () => {
   return (
@@ -10,10 +10,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-xl">A</span>
-              </div>
-              <div className="w-10 h-10 rounded-lg flex items-center justify-center overflow-hidden" >
+              <div className="w-16 h-16 rounded-lg flex items-center justify-center overflow-hidden" >
                 <img src={logo} alt="Alvatek Solutions" classnName="w-full h-full object-contain" />
               </div>
               <div className="flex flex-col">
@@ -81,7 +78,7 @@ const Footer = () => {
               <li className="flex items-center space-x-2">
                 <Phone size={16} className="flex-shrink-0" />
                 <a href="tel:+57" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">
-                  +57 XXX XXX XXXX
+                  +57 313 422 9134
                 </a>
               </li>
             </ul>
@@ -98,7 +95,7 @@ const Footer = () => {
 
         <div className="border-t border-secondary-foreground/20 mt-8 pt-8 text-center text-sm text-secondary-foreground/60">
           <p>&copy; {new Date().getFullYear()} Alvatek Solutions S.A.S. Todos los derechos reservados.</p>
-          <p className="mt-2">NIT: XXX.XXX.XXX-X</p>
+          <p className="mt-2">NIT: 901.998.538-1</p>
         </div>
       </div>
     </footer>
