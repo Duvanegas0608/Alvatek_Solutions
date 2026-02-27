@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Mail, Phone, MapPin, Linkedin, Instagram } from "lucide-react";
+import logo from "@/assets/Logo3.png";
 
 const Footer = () => {
   return (
@@ -11,6 +12,9 @@ const Footer = () => {
             <div className="flex items-center space-x-2">
               <div className="w-10 h-10 bg-gradient-to-br from-primary to-accent rounded-lg flex items-center justify-center">
                 <span className="text-primary-foreground font-bold text-xl">A</span>
+              </div>
+              <div className="w-10 h-10 rounded-lg flex items-center justify-center overflow-hidden" >
+                <img src={logo} alt="Alvatek Solutions" classnName="w-full h-full object-contain" />
               </div>
               <div className="flex flex-col">
                 <span className="font-bold text-secondary-foreground text-lg leading-tight">Alvatek</span>
