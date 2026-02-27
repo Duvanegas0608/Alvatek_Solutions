@@ -12,7 +12,7 @@ const Services = () => {
       features: [
         "Programación de PLC en múltiples plataformas",
         "Diseño de interfaces HMI intuitivas",
-        "Integración con sistemas SCADA",
+        "Integración con sistemas SCADA (AVEVA, Ignition, Factory Talk y Simatic WinCC",
         "Optimización de código existente"
       ]
     },
@@ -56,8 +56,7 @@ const Services = () => {
       features: [
         "Instalaciones de baja y media tensión",
         "Sistemas de puesta a tierra",
-        "Redes eléctricas industriales",
-        "Certificaciones RETIE"
+        "Redes eléctricas industriales"
       ]
     },
     {
