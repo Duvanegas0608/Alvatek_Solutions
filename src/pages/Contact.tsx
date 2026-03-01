@@ -149,8 +149,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold mb-1">Correo Electrónico</h3>
-                      <a href="mailto:ventas.alvatek@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
-                        ventas.alvatek@gmail.com
+                      <a href="mailto:contacto@alvatek-solutions.com" className="text-muted-foreground hover:text-primary transition-colors">
+                        contacto@alvatek-solutions.com
                       </a>
                     </div>
                   </div>
