@@ -12,7 +12,7 @@ const Services = () => {
       features: [
         "Programación de PLC en múltiples plataformas",
         "Diseño de interfaces HMI intuitivas",
-        "Integración con sistemas SCADA (AVEVA, Ignition, Factory Talk y Simatic WinCC",
+        "Integración con sistemas SCADA (AVEVA, Ignition, Factory Talk y Simatic WinCC)",
         "Optimización de código existente"
       ]
     },
