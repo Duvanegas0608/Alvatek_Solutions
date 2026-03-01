@@ -58,14 +58,14 @@ const About = () => {
               </p>
 
               <h2 className="text-3xl font-bold mb-6 mt-12 text-foreground">Nuestra Misión</h2>
-              <p className="text-muted-foreground mb-6">
+              <p className="text-muted-foreground mb-6 text-justify leading-relaxed">
                 Proporcionar soluciones integrales de automatización y control industrial de alta calidad, 
                 utilizando tecnología de punta y las mejores prácticas del sector, para ayudar a nuestros 
                 clientes a alcanzar sus objetivos de producción y eficiencia operativa.
               </p>
 
               <h2 className="text-3xl font-bold mb-6 mt-12 text-foreground">Nuestra Visión</h2>
-              <p className="text-muted-foreground mb-6">
+              <p className="text-muted-foreground mb-6 text-justify leading-relaxed">
                 Ser reconocidos como líderes en soluciones de automatización industrial en Colombia, 
                 destacándonos por nuestra capacidad técnica, innovación y compromiso con la satisfacción 
                 de nuestros clientes.
