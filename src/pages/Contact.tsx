@@ -21,7 +21,7 @@ const Contact = () => {
     // Here you would typically send the form data to a backend
     toast({
       title: "Mensaje enviado",
-      description: "Gracias por contactarnos. Le responderemos pronto.",
+      description: "Gracias por contactarnos. Está opción no está habilitada, escribenos un correo directamente. Le responderemos pronto.",
     });
     setFormData({ name: "", company: "", email: "", phone: "", message: "" });
   };
