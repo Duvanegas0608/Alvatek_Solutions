@@ -45,15 +45,15 @@ const About = () => {
           <div className="max-w-4xl mx-auto">
             <div className="prose prose-lg max-w-none">
               <h2 className="text-3xl font-bold mb-6 text-foreground">¿Quiénes Somos?</h2>
-              <p className="text-muted-foreground mb-6">
+              <p className="text-muted-foreground mb-6 text-justify leading-relaxed">
                 <strong className="text-foreground">Alvatek Solutions S.A.S.</strong> es una empresa colombiana especializada en 
                 automatización industrial, control de procesos y soluciones eléctricas para el sector industrial. 
                 Contamos con un equipo de ingenieros y técnicos especializados en las principales plataformas 
                 de automatización del mercado.
               </p>
-              <p className="text-muted-foreground mb-6">
+              <p className="text-muted-foreground mb-6 text-justify leading-relaxed">
                 Trabajamos con empresas de diversos sectores industriales, desde manufactura y alimentos hasta 
-                petroquímica y minería, proporcionando soluciones personalizadas que optimizan procesos, 
+                Oil & gas, energías y aguas, proporcionando soluciones personalizadas que optimizan procesos, 
                 reducen costos operativos y mejoran la productividad.
               </p>
 
