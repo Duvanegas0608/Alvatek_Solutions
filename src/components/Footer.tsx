@@ -73,8 +73,8 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-2">
                 <Mail size={16} className="flex-shrink-0" />
-                <a href="mailto:info@alvatek.com" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">
-                  info@alvatek.com
+                <a href="mailto:contacto@alvatek-solutions.com" className="text-secondary-foreground/80 hover:text-secondary-foreground transition-colors">
+                  contacto@alvatek-solutions.com
                 </a>
               </li>
               <li className="flex items-center space-x-2">
