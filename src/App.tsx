@@ -19,6 +19,7 @@ const App = () => (
       <Sonner />
       {/* <BrowserRouter basename="/Alvatek_Solutions/"> */}
       <HashRouter>
+<ScrollToTop />
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
